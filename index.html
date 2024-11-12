@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community for a Cause</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Join Our Community for a Cause!</h1>
+        <p>Make a difference by donating, volunteering, or sharing your story.</p>
+    </header>
+
+    <section id="event-calendar">
+        <h2>Upcoming Events</h2>
+        <div id="events"></div>
+    </section>
+
+    <section id="donation-tracker">
+        <h2>Donation Tracker</h2>
+        <div id="donations"></div>
+    </section>
+
+    <section id="volunteer-signup">
+        <h2>Volunteer Signup</h2>
+        <form id="volunteerForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Your Phone" required>
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+
+    <section id="impact-stories">
+        <h2>Impact Stories</h2>
+        <div id="stories"></div>
+    </section>
+
+    <script src="db.js"></script>
+    <script src="volunteer.js"></script>
+    <script src="donation.js"></script>
+    <script src="event.js"></script>
+    <script src="story.js"></script>
+    <script src="server.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+/* Basic styling for a colorful and interactive landing page */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #e8ede6;
+    background-image: url(foodchain1.jpg);
+}
+
+header {
+    
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: grey;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #0e0201;
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: grey;
+}
